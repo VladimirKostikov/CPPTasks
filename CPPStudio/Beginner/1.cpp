@@ -12,11 +12,11 @@ int main() {
     int num;
     cin >> num;
 
-    if(10000 <= num <= 99999) {
-        string str = stoi(num);
+    if(10000 <= num && num <= 99999) {
+        string str = to_string(num);
         
         for(int i=0; i<str.length(); i++) {
-            cout << str[i] << endl;
+            cout << 1+i << " number is " << str[i] << endl;
         }
     }
 
