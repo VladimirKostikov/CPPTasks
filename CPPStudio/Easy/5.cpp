@@ -17,7 +17,7 @@ int main() {
 
     int k = num;
     for(int i=1; i<pow; i++) {
-        k = k*num;l;
+        k = k*num;
     }
 
     cout << "Result:" << k << endl;
