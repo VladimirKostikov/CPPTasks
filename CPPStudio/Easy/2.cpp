@@ -4,6 +4,7 @@
 */
 
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -15,7 +16,13 @@ int main() {
     cout << "Enter k:";
     cin >> k;
 
-    
+    int sum = 0;
+
+    for(int i=0; i<N; i++) {
+        sum += pow(i+1,k);
+    }
+
+    cout << "Sum: " << sum << endl;
 
     return 0;
 }
